@@ -1,50 +1,68 @@
-# A Fenda — Spotted Universitário
+# A Fenda — Documentação e apêndices
 
-Projeto desenvolvido para o curso de Análise e Desenvolvimento de Sistemas (ADS) da UNIFEV.
+Repositório de materiais complementares à documentação acadêmica da plataforma **A Fenda — Spotted Universitário**, desenvolvida no curso de Análise e Desenvolvimento de Sistemas (ADS) do Centro Universitário de Votuporanga (UNIFEV).
+
+Este repositório reúne diagramas vetoriais, arquivos editáveis e registros visuais de testes exploratórios. O código-fonte da aplicação está em um repositório separado: [Twester77/components-spotted-xamp](https://github.com/Twester77/components-spotted-xamp).
 
 ## Sobre o projeto
 
-A Fenda — Spotted Universitário é uma aplicação web voltada à comunidade universitária, reunindo publicações, perfis, comunidades, eventos, classificados, achados e perdidos e outros recursos de interação.
+A Fenda é uma aplicação web voltada à comunidade universitária. O projeto reúne recursos como publicações, perfis, comunidades, eventos e achados e perdidos. Classificados/marketplace e administração global permanecem fora do escopo funcional concluído e não devem ser interpretados como recursos disponíveis apenas por estarem representados ou mencionados nos materiais.
 
-Este repositório também disponibiliza materiais complementares à documentação acadêmica do projeto, incluindo arquivos editáveis dos diagramas e outros artefatos técnicos.
+Os diagramas registram uma visão conceitual ou estrutural do sistema na época em que foram produzidos. Consulte o código e o esquema do banco para verificar o estado atual da implementação.
 
-## Estrutura
+## Conteúdo do repositório
 
 ```text
 .
 ├── README.md
 ├── LICENSE
+├── Captura de tela *.png
 └── documentacao/
-    ├── der-fenda-producao.drawio
     ├── arquitetura-hospedagem-fenda.svg
-    └── diagrama-navegacao.svg
+    ├── der-fenda-producao.drawio
+    ├── diagrama-navegacao-fenda.svg
+    └── diagrama/
+        ├── diagrama-casos-de-uso-fenda.svg
+        ├── diagrama-classes-fenda.svg
+        ├── diagrama-classes-fenda.drawio
+        ├── diagrama-classes-fenda-parte-1.svg
+        ├── diagrama-classes-fenda-parte-2.svg
+        └── diagrama-classes-fenda-legivel.drawio
 ```
 
-Os nomes e arquivos da pasta `documentacao/` podem ser ajustados conforme os materiais efetivamente publicados.
+As imagens PNG na raiz são registros visuais de testes de interface em emuladores de dispositivos. São exemplos de cenários exploratórios, não evidência de testes em todos os aparelhos físicos.
 
-## Arquivos de documentação
+## Diagramas
 
-### `der-fenda-producao.drawio`
+### Casos de uso
 
-Arquivo editável dos diagramas entidade-relacionamento utilizados na documentação da plataforma.
+- [`diagrama-casos-de-uso-fenda.svg`](documentacao/diagrama/diagrama-casos-de-uso-fenda.svg) — atores externos e casos de uso principais.
 
-O arquivo pode ser aberto com o [diagrams.net (draw.io)](https://app.diagrams.net/).
+### Classes
 
-### `arquitetura-hospedagem-fenda.svg`
+- [`diagrama-classes-fenda.svg`](documentacao/diagrama/diagrama-classes-fenda.svg) — visão conceitual geral das classes centrais do domínio.
+- [`diagrama-classes-fenda-parte-1.svg`](documentacao/diagrama/diagrama-classes-fenda-parte-1.svg) — vista ampliada de publicações e interações.
+- [`diagrama-classes-fenda-parte-2.svg`](documentacao/diagrama/diagrama-classes-fenda-parte-2.svg) — vista ampliada de comunidades e eventos.
+- [`diagrama-classes-fenda.drawio`](documentacao/diagrama/diagrama-classes-fenda.drawio) — arquivo editável da visão geral.
+- [`diagrama-classes-fenda-legivel.drawio`](documentacao/diagrama/diagrama-classes-fenda-legivel.drawio) — arquivo editável com as duas vistas detalhadas.
 
-Diagrama vetorial utilizado para representar o fluxo lógico da arquitetura e das integrações da plataforma.
+O diagrama de classes é conceitual. Os nomes de classe representam elementos do domínio e não afirmam que a aplicação PHP use classes com esses mesmos nomes.
 
-### `diagrama-navegacao.svg`
+### Dados, navegação e arquitetura
 
-Representação do fluxo funcional de navegação da plataforma.
+- [`der-fenda-producao.drawio`](documentacao/der-fenda-producao.drawio) — modelo entidade-relacionamento editável, elaborado a partir de uma exportação estrutural do banco de produção, sem registros de usuários.
+- [`diagrama-navegacao-fenda.svg`](documentacao/diagrama-navegacao-fenda.svg) — principais percursos de navegação da aplicação.
+- [`arquitetura-hospedagem-fenda.svg`](documentacao/arquitetura-hospedagem-fenda.svg) — fluxo lógico entre navegador, aplicação, banco de dados e serviços externos identificados.
 
-## Finalidade do repositório
+Os arquivos SVG são vetoriais e podem ser ampliados sem a perda de qualidade típica de imagens rasterizadas. Os arquivos `.drawio` podem ser abertos e editados em [diagrams.net](https://app.diagrams.net/).
 
-Os arquivos disponibilizados aqui têm finalidade principalmente acadêmica e documental. Eles servem como material complementar ao relatório do projeto e podem ser consultados para visualizar ou editar os artefatos apresentados na documentação.
+## Testes exploratórios de interface
+
+As capturas de tela registram cenários de responsividade verificados por meio da emulação de dispositivos nas ferramentas de desenvolvimento do navegador. Os testes foram feitos em emulação no computador, não em todos os aparelhos físicos correspondentes. Eles não equivalem a testes automatizados, auditoria de segurança, avaliação formal de acessibilidade, teste de carga ou validação exaustiva da aplicação.
 
 ## Estado do projeto
 
-O projeto encontra-se em desenvolvimento. A documentação acadêmica descreve o estado da implementação e das validações até a data de sua elaboração, incluindo funcionalidades concluídas, limitações e itens ainda sujeitos a desenvolvimento e validação.
+A Fenda permanece em desenvolvimento. A documentação acadêmica descreve o estado observado durante sua elaboração e distingue funcionalidades implementadas, parciais e planejadas. A existência de uma tabela no esquema, de um diagrama ou de uma tela não comprova, isoladamente, que um fluxo funcional esteja concluído ou disponível em produção.
 
 ## Autoria
 
@@ -53,8 +71,8 @@ Curso de Análise e Desenvolvimento de Sistemas (ADS)
 Centro Universitário de Votuporanga — UNIFEV  
 2026
 
-## Licença
+## Licença e escopo
 
-O código deste repositório é distribuído sob a licença indicada no arquivo [`LICENSE`](./LICENSE).
+Os materiais originais deste repositório estão disponibilizados sob a licença MIT indicada em [`LICENSE`](LICENSE). Essa licença se aplica somente aos materiais deste repositório e **não** altera nem concede direitos sobre o código-fonte da aplicação no repositório [Twester77/components-spotted-xamp](https://github.com/Twester77/components-spotted-xamp), que possui termos próprios de direitos autorais.
 
-Materiais de terceiros eventualmente presentes no projeto permanecem sujeitos às respectivas licenças e condições de uso.
+Logotipos, marcas, bibliotecas, imagens ou outros materiais de terceiros eventualmente incluídos continuam sujeitos às licenças e aos direitos de seus respectivos titulares; a licença deste repositório não amplia essas permissões.
