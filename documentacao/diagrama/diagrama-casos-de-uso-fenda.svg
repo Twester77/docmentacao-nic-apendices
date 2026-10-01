@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1120" viewBox="0 0 1800 1120" role="img" aria-labelledby="title description">
+  <title id="title">Diagrama de casos de uso da plataforma A Fenda</title>
+  <desc id="description">Diagrama UML com os atores Visitante e Usuário autenticado e os principais casos de uso implementados da plataforma.</desc>
+  <defs>
+    <style>
+      text { font-family: Arial, Helvetica, sans-serif; fill: #172b4d; }
+      .heading { font-size: 32px; font-weight: 700; }
+      .subtitle { font-size: 18px; fill: #52647a; }
+      .boundary { fill: #fbfdff; stroke: #365a7a; stroke-width: 2; }
+      .boundary-title { font-size: 22px; font-weight: 700; }
+      .usecase { fill: #ffffff; stroke: #365a7a; stroke-width: 2; }
+      .case-label { font-size: 18px; text-anchor: middle; }
+      .actor-line { fill: none; stroke: #52647a; stroke-width: 2; }
+      .actor-label { font-size: 17px; text-anchor: middle; }
+      .note { font-size: 16px; fill: #52647a; }
+    </style>
+  </defs>
+  <rect width="1800" height="1120" fill="#ffffff"/>
+  <text x="70" y="58" class="heading">Diagrama de casos de uso — A Fenda</text>
+  <text x="70" y="91" class="subtitle">Visão dos principais serviços do sistema a partir dos atores externos</text>
+
+  <rect class="boundary" x="390" y="130" width="1030" height="870" rx="4"/>
+  <text class="boundary-title" x="420" y="170">Sistema A Fenda</text>
+
+  <!-- Actor associations -->
+  <path class="actor-line" d="M222 305 H300 V255 H625"/>
+  <path class="actor-line" d="M222 305 H350 V190 H1180 V207"/>
+
+  <path class="actor-line" d="M222 715 H300 V405 H625"/>
+  <path class="actor-line" d="M222 715 H330 V330 H1000 V405 H1025"/>
+  <path class="actor-line" d="M222 715 H350 V480 H625 V555"/>
+  <path class="actor-line" d="M222 715 H370 V630 H1000 V555 H1025"/>
+  <path class="actor-line" d="M222 715 H390 V630 H625 V705"/>
+  <path class="actor-line" d="M222 715 H410 V780 H1000 V705 H1025"/>
+  <path class="actor-line" d="M222 715 H430 V855 H1025"/>
+
+  <!-- Use cases -->
+  <ellipse class="usecase" cx="780" cy="255" rx="155" ry="48"/>
+  <text class="case-label" x="780" y="262">Cadastrar-se</text>
+  <ellipse class="usecase" cx="1180" cy="255" rx="155" ry="48"/>
+  <text class="case-label" x="1180" y="262">Autenticar-se</text>
+
+  <ellipse class="usecase" cx="780" cy="405" rx="155" ry="48"/>
+  <text class="case-label" x="780" y="412">Visualizar o feed</text>
+  <ellipse class="usecase" cx="1180" cy="405" rx="155" ry="48"/>
+  <text class="case-label" x="1180" y="412">Publicar conteúdo</text>
+
+  <ellipse class="usecase" cx="780" cy="555" rx="155" ry="48"/>
+  <text class="case-label" x="780" y="562">Comentar e reagir</text>
+  <ellipse class="usecase" cx="1180" cy="555" rx="155" ry="48"/>
+  <text class="case-label" x="1180" y="562">Participar de comunidades</text>
+
+  <ellipse class="usecase" cx="780" cy="705" rx="155" ry="48"/>
+  <text class="case-label" x="780" y="712">Consultar e responder eventos</text>
+  <ellipse class="usecase" cx="1180" cy="705" rx="155" ry="48"/>
+  <text class="case-label" x="1180" y="712">Consultar achados e perdidos</text>
+
+  <ellipse class="usecase" cx="1180" cy="855" rx="155" ry="48"/>
+  <text class="case-label" x="1180" y="862">Gerenciar comunidade</text>
+  <text class="note" x="440" y="950">Ações administrativas limitadas à comunidade; não há painel global de moderação.</text>
+
+  <!-- Actors -->
+  <g transform="translate(130 250)">
+    <circle cx="60" cy="18" r="17" fill="#ffffff" stroke="#365a7a" stroke-width="2"/>
+    <path d="M60 35 V92 M28 55 H92 M60 92 L32 128 M60 92 L88 128" fill="none" stroke="#365a7a" stroke-width="2.5"/>
+    <text class="actor-label" x="60" y="158">Visitante</text>
+  </g>
+  <g transform="translate(130 660)">
+    <circle cx="60" cy="18" r="17" fill="#ffffff" stroke="#365a7a" stroke-width="2"/>
+    <path d="M60 35 V92 M28 55 H92 M60 92 L32 128 M60 92 L88 128" fill="none" stroke="#365a7a" stroke-width="2.5"/>
+    <text class="actor-label" x="60" y="158">Usuário autenticado</text>
+  </g>
+  <text class="note" x="70" y="1060">Fonte: elaborado pelo autor com base nas funcionalidades identificadas no projeto (2026).</text>
+</svg>

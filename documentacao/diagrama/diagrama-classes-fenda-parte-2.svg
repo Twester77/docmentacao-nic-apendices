@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1160" viewBox="0 0 1600 1160" role="img" aria-labelledby="title desc">
+  <title id="title">Diagrama de classes da Fenda — comunidades e eventos</title>
+  <desc id="desc">Diagrama UML em formato paisagem com classes Usuario, Comunidade, ParticipacaoComunidade, Evento e RespostaEvento. A tipografia e as caixas foram dimensionadas para leitura em impressão.</desc>
+  <defs>
+    <style>
+      text { font-family: Arial, Helvetica, sans-serif; fill: #17324d; }
+      .title { font-size: 38px; font-weight: 700; }
+      .subtitle { font-size: 23px; fill: #52677c; }
+      .box { fill: #fff; stroke: #315a78; stroke-width: 2.5; }
+      .name { font-size: 29px; font-weight: 700; text-anchor: middle; }
+      .stereo { font-size: 20px; fill: #62788d; text-anchor: middle; }
+      .attr { font-size: 23px; }
+      .op { font-size: 22px; }
+      .rule { stroke: #91a7bb; stroke-width: 2; }
+      .edge { fill: none; stroke: #3f5f78; stroke-width: 2.5; }
+      .mult { font-size: 19px; font-weight: 700; }
+      .role { font-size: 19px; fill: #3f5f78; }
+      .note { font-size: 20px; fill: #52677c; }
+    </style>
+  </defs>
+  <rect width="1600" height="1160" fill="#fff"/>
+  <text class="title" x="70" y="62">Diagrama de classes — comunidades e eventos</text>
+  <text class="subtitle" x="70" y="102">Visão conceitual do domínio · A Fenda</text>
+
+  <!-- Associations -->
+  <path class="edge" d="M600 300 H1000"/>
+  <text class="mult" x="620" y="286">0..*</text><text class="mult" x="970" y="286">1</text>
+  <text class="role" x="790" y="330">cria</text>
+  <path class="edge" d="M390 450 V520 H390 V570"/>
+  <text class="mult" x="400" y="478">0..*</text><text class="mult" x="400" y="558">1</text>
+  <text class="role" x="410" y="525">participa</text>
+  <path class="edge" d="M1265 450 V510 H800 V700 H600"/>
+  <text class="mult" x="1275" y="478">0..*</text><text class="mult" x="610" y="690">1</text>
+  <text class="role" x="835" y="503">participações</text>
+  <path class="edge" d="M335 190 V150 H1560 V700 H1530"/>
+  <text class="mult" x="345" y="180">0..*</text><text class="mult" x="1540" y="690">1</text>
+  <text class="role" x="790" y="145">cria evento</text>
+  <path class="edge" d="M1265 830 V870"/>
+  <text class="mult" x="1275" y="858">1</text><text class="mult" x="1540" y="890">0..*</text>
+  <text class="role" x="1350" y="845">respostas</text>
+  <path class="edge" d="M600 430 H650 V850 H980 V990 H1000"/>
+  <text class="mult" x="610" y="455">0..*</text><text class="mult" x="1005" y="980">1</text>
+  <text class="role" x="790" y="838">registra presença</text>
+
+  <!-- Classes -->
+  <g>
+    <rect class="box" x="70" y="190" width="530" height="260"/>
+    <text class="name" x="335" y="230">Usuario</text>
+    <text class="stereo" x="335" y="258">«usuarios»</text>
+    <line class="rule" x1="70" y1="275" x2="600" y2="275"/>
+    <text class="attr" x="100" y="310">- id: int</text>
+    <text class="attr" x="100" y="342">- nome: String</text>
+    <text class="attr" x="100" y="374">- email: String</text>
+    <line class="rule" x1="70" y1="418" x2="600" y2="418"/>
+    <text class="op" x="100" y="444">+ participar(): void</text>
+  </g>
+  <g>
+    <rect class="box" x="1000" y="190" width="530" height="260"/>
+    <text class="name" x="1265" y="230">Comunidade</text>
+    <text class="stereo" x="1265" y="258">«comunidades»</text>
+    <line class="rule" x1="1000" y1="275" x2="1530" y2="275"/>
+    <text class="attr" x="1030" y="310">- id: int</text>
+    <text class="attr" x="1030" y="342">- nome: String</text>
+    <text class="attr" x="1030" y="374">- descricao: String</text>
+    <text class="attr" x="1030" y="406">- criadorId: int</text>
+    <line class="rule" x1="1000" y1="418" x2="1530" y2="418"/>
+    <text class="op" x="1030" y="444">+ gerenciarMembros(): void</text>
+  </g>
+  <g>
+    <rect class="box" x="70" y="570" width="530" height="260"/>
+    <text class="name" x="335" y="610">ParticipacaoComunidade</text>
+    <text class="stereo" x="335" y="638">«comunidade_membros»</text>
+    <line class="rule" x1="70" y1="655" x2="600" y2="655"/>
+    <text class="attr" x="100" y="690">- usuarioId: int</text>
+    <text class="attr" x="100" y="722">- comunidadeId: int</text>
+    <line class="rule" x1="70" y1="798" x2="600" y2="798"/>
+    <text class="op" x="100" y="824">+ ingressar(): void</text>
+  </g>
+  <g>
+    <rect class="box" x="1000" y="570" width="530" height="260"/>
+    <text class="name" x="1265" y="610">Evento</text>
+    <text class="stereo" x="1265" y="638">«eventos»</text>
+    <line class="rule" x1="1000" y1="655" x2="1530" y2="655"/>
+    <text class="attr" x="1030" y="690">- id: int</text>
+    <text class="attr" x="1030" y="722">- nome: String</text>
+    <text class="attr" x="1030" y="754">- dataEvento: DateTime</text>
+    <text class="attr" x="1030" y="786">- local: String</text>
+    <line class="rule" x1="1000" y1="798" x2="1530" y2="798"/>
+    <text class="op" x="1030" y="824">+ responder(): RespostaEvento</text>
+  </g>
+  <g>
+    <rect class="box" x="1000" y="870" width="530" height="250"/>
+    <text class="name" x="1265" y="910">RespostaEvento</text>
+    <text class="stereo" x="1265" y="938">«evento_respostas»</text>
+    <line class="rule" x1="1000" y1="955" x2="1530" y2="955"/>
+    <text class="attr" x="1030" y="990">- usuarioId: int · eventoId: int</text>
+    <text class="attr" x="1030" y="1022">- resposta: String · dataResposta: DateTime</text>
+    <line class="rule" x1="1000" y1="1040" x2="1530" y2="1040"/>
+    <text class="op" x="1030" y="1080">+ registrar(): void</text>
+  </g>
+  <text class="note" x="70" y="900">A participação registra a relação de usuário e comunidade.</text>
+  <text class="note" x="70" y="934">O vínculo direto entre comunidade e evento não aparece como FK no DER consultado.</text>
+  <text class="note" x="70" y="1150">Fonte: elaborado pelo autor com base no modelo de dados e nos fluxos do projeto (2026).</text>
+</svg>

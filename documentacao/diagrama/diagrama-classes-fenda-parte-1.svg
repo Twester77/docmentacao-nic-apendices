@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1160" viewBox="0 0 1600 1160" role="img" aria-labelledby="title desc">
+  <title id="title">Diagrama de classes da Fenda — publicações e interações</title>
+  <desc id="desc">Diagrama UML em formato paisagem com classes Usuario, Publicacao, Comentario, Reacao e Notificacao. A tipografia e as caixas foram dimensionadas para leitura em impressão.</desc>
+  <defs>
+    <style>
+      text { font-family: Arial, Helvetica, sans-serif; fill: #17324d; }
+      .title { font-size: 38px; font-weight: 700; }
+      .subtitle { font-size: 23px; fill: #52677c; }
+      .box { fill: #fff; stroke: #315a78; stroke-width: 2.5; }
+      .name { font-size: 29px; font-weight: 700; text-anchor: middle; }
+      .stereo { font-size: 20px; fill: #62788d; text-anchor: middle; }
+      .attr { font-size: 23px; }
+      .op { font-size: 22px; }
+      .rule { stroke: #91a7bb; stroke-width: 2; }
+      .edge { fill: none; stroke: #3f5f78; stroke-width: 2.5; }
+      .mult { font-size: 19px; font-weight: 700; }
+      .role { font-size: 19px; fill: #3f5f78; }
+      .note { font-size: 20px; fill: #52677c; }
+    </style>
+  </defs>
+  <rect width="1600" height="1160" fill="#fff"/>
+  <text class="title" x="70" y="62">Diagrama de classes — publicações e interações</text>
+  <text class="subtitle" x="70" y="102">Visão conceitual do domínio · A Fenda</text>
+
+  <!-- Associations -->
+  <path class="edge" d="M600 300 H1000"/>
+  <text class="mult" x="620" y="286">0..*</text><text class="mult" x="970" y="286">0..1</text>
+  <text class="role" x="790" y="330">autor</text>
+  <path class="edge" d="M1265 450 V510 H800 V620 H600"/>
+  <text class="mult" x="1275" y="480">1</text><text class="mult" x="810" y="640">0..*</text>
+  <text class="role" x="850" y="503">possui comentários</text>
+  <path class="edge" d="M1265 450 V570"/>
+  <text class="mult" x="1275" y="480">1</text><text class="mult" x="1275" y="560">0..*</text>
+  <text class="role" x="1285" y="525">possui reações</text>
+  <path class="edge" d="M600 430 H700 V700 H1000"/>
+  <text class="mult" x="610" y="455">0..*</text><text class="mult" x="1005" y="690">1</text>
+  <text class="role" x="710" y="680">autor da reação</text>
+  <path class="edge" d="M335 450 V570"/>
+  <text class="mult" x="350" y="475">0..*</text><text class="mult" x="350" y="550">0..1</text>
+  <text class="role" x="365" y="510">autor do comentário</text>
+  <path class="edge" d="M600 610 H640 V770 H600"/>
+  <text class="mult" x="650" y="635">0..1 pai</text><text class="mult" x="650" y="750">0..* filhos</text>
+  <text class="role" x="650" y="795">respostas</text>
+  <path class="edge" d="M70 300 H20 V975 H1000"/>
+  <text class="mult" x="40" y="286">0..*</text><text class="mult" x="1005" y="965">1</text>
+  <text class="role" transform="translate(45 740) rotate(-90)">destinatário</text>
+
+  <!-- Classes -->
+  <g>
+    <rect class="box" x="70" y="190" width="530" height="260"/>
+    <text class="name" x="335" y="230">Usuario</text>
+    <text class="stereo" x="335" y="258">«usuarios»</text>
+    <line class="rule" x1="70" y1="275" x2="600" y2="275"/>
+    <text class="attr" x="100" y="310">- id: int</text>
+    <text class="attr" x="100" y="342">- nome: String</text>
+    <text class="attr" x="100" y="374">- email: String</text>
+    <text class="attr" x="100" y="406">- foto: String [0..1]</text>
+    <line class="rule" x1="70" y1="418" x2="600" y2="418"/>
+    <text class="op" x="100" y="444">+ publicar(): Publicacao</text>
+  </g>
+  <g>
+    <rect class="box" x="1000" y="190" width="530" height="260"/>
+    <text class="name" x="1265" y="230">Publicacao</text>
+    <text class="stereo" x="1265" y="258">«mensagens»</text>
+    <line class="rule" x1="1000" y1="275" x2="1530" y2="275"/>
+    <text class="attr" x="1030" y="310">- id: int</text>
+    <text class="attr" x="1030" y="342">- mensagem: String</text>
+    <text class="attr" x="1030" y="374">- categoria: String</text>
+    <text class="attr" x="1030" y="406">- dataPost: DateTime</text>
+    <line class="rule" x1="1000" y1="418" x2="1530" y2="418"/>
+    <text class="op" x="1030" y="444">+ comentar(): Comentario</text>
+  </g>
+  <g>
+    <rect class="box" x="70" y="570" width="530" height="260"/>
+    <text class="name" x="335" y="610">Comentario</text>
+    <text class="stereo" x="335" y="638">«comentarios»</text>
+    <line class="rule" x1="70" y1="655" x2="600" y2="655"/>
+    <text class="attr" x="100" y="690">- id: int</text>
+    <text class="attr" x="100" y="722">- texto: String</text>
+    <text class="attr" x="100" y="754">- dataComentario: DateTime</text>
+    <text class="attr" x="100" y="786">- parentId: int [0..1]</text>
+    <line class="rule" x1="70" y1="798" x2="600" y2="798"/>
+    <text class="op" x="100" y="824">+ responder(): Comentario</text>
+  </g>
+  <g>
+    <rect class="box" x="1000" y="570" width="530" height="260"/>
+    <text class="name" x="1265" y="610">Reacao</text>
+    <text class="stereo" x="1265" y="638">«curtidas»</text>
+    <line class="rule" x1="1000" y1="655" x2="1530" y2="655"/>
+    <text class="attr" x="1030" y="690">- id: int</text>
+    <text class="attr" x="1030" y="722">- tipo: String</text>
+    <text class="attr" x="1030" y="754">- dataReacao: DateTime</text>
+    <line class="rule" x1="1000" y1="798" x2="1530" y2="798"/>
+    <text class="op" x="1030" y="824">+ registrar(): void</text>
+  </g>
+  <g>
+    <rect class="box" x="1000" y="860" width="530" height="230"/>
+    <text class="name" x="1265" y="900">Notificacao</text>
+    <text class="stereo" x="1265" y="928">«notificacoes»</text>
+    <line class="rule" x1="1000" y1="945" x2="1530" y2="945"/>
+    <text class="attr" x="1030" y="980">- id: int · tipo: String</text>
+    <text class="attr" x="1030" y="1012">- mensagem: String · lida: Boolean</text>
+    <line class="rule" x1="1000" y1="1024" x2="1530" y2="1024"/>
+    <text class="op" x="1030" y="1060">+ marcarComoLida(): void</text>
+  </g>
+  <text class="note" x="70" y="900">As multiplicidades indicam as cardinalidades das associações.</text>
+  <text class="note" x="70" y="934">As propriedades e operações são uma síntese conceitual, não uma lista completa de campos.</text>
+  <text class="note" x="70" y="1080">Fonte: elaborado pelo autor com base no modelo de dados e nos fluxos do projeto (2026).</text>
+</svg>

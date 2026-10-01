@@ -1,0 +1,257 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1530" viewBox="0 0 2400 1530" role="img" aria-labelledby="title description">
+  <title id="title">Diagrama de classes conceitual da plataforma A Fenda</title>
+  <desc id="description">Diagrama UML com as classes Usuario, Publicacao, Comentario, Reacao, Notificacao, Comunidade, ParticipacaoComunidade, Evento, RespostaEvento e Anuncio, mostrando atributos, operacoes e associacoes principais.</desc>
+  <defs>
+    <style>
+      text { font-family: Arial, Helvetica, sans-serif; fill: #172b4d; }
+      .heading { font-size: 34px; font-weight: 700; }
+      .subtitle { font-size: 19px; fill: #52647a; }
+      .box { fill: #ffffff; stroke: #365a7a; stroke-width: 2; }
+      .class-name { font-size: 22px; font-weight: 700; text-anchor: middle; }
+      .stereotype { font-size: 14px; fill: #60758b; text-anchor: middle; }
+      .member { font-size: 16px; }
+      .divider { stroke: #91a5b9; stroke-width: 1.5; }
+      .association { fill: none; stroke: #334e68; stroke-width: 2; }
+      .association-label { font-size: 15px; fill: #334e68; }
+      .multiplicity { font-size: 15px; font-weight: 700; fill: #243b53; }
+      .note { fill: #f4f7fa; stroke: #829ab1; stroke-width: 1.5; }
+      .note-text { font-size: 16px; fill: #334e68; }
+    </style>
+    </defs>
+
+  <rect width="2400" height="1530" fill="#ffffff"/>
+  <text x="70" y="62" class="heading">Diagrama de classes — A Fenda</text>
+  <text x="70" y="96" class="subtitle">Modelo conceitual do domínio · UML · operações representam responsabilidades do sistema</text>
+
+  <!-- Associations are drawn behind the class boxes. -->
+  <path class="association" d="M420 252 H490"/>
+  <text x="422" y="239" class="multiplicity">0..*</text>
+  <text x="464" y="239" class="multiplicity">0..1</text>
+  <text x="432" y="277" class="association-label">autor</text>
+
+  <path class="association" d="M840 252 H910"/>
+  <text x="842" y="239" class="multiplicity">0..*</text>
+  <text x="884" y="239" class="multiplicity">1</text>
+  <text x="845" y="277" class="association-label">comentários</text>
+
+  <path class="association" d="M300 140 V128 H1505 V140"/>
+  <text x="308" y="158" class="multiplicity">0..*</text>
+  <text x="1470" y="158" class="multiplicity">1</text>
+  <text x="700" y="124" class="association-label">registra reações</text>
+
+  <path class="association" d="M245 140 V118 H1925 V140"/>
+  <text x="253" y="158" class="multiplicity">0..*</text>
+  <text x="1890" y="158" class="multiplicity">1</text>
+  <text x="1600" y="112" class="association-label">recebe</text>
+
+  <path class="association" d="M665 400 V455 H1505 V400"/>
+  <text x="673" y="425" class="multiplicity">0..*</text>
+  <text x="1470" y="425" class="multiplicity">1</text>
+  <text x="1010" y="448" class="association-label">reações</text>
+
+  <path class="association" d="M1260 350 H1290 V440 H1085 V400"/>
+  <text x="1268" y="373" class="multiplicity">0..1 pai</text>
+  <text x="1093" y="425" class="multiplicity">0..* respostas</text>
+
+  <path class="association" d="M840 380 V510 H1925 V400"/>
+  <text x="848" y="405" class="multiplicity">0..*</text>
+  <text x="1890" y="425" class="multiplicity">0..1</text>
+  <text x="1430" y="503" class="association-label">notificação pode referenciar publicação</text>
+
+  <path class="association" d="M245 400 V535 H1085 V400"/>
+  <text x="253" y="425" class="multiplicity">0..*</text>
+  <text x="1045" y="425" class="multiplicity">0..1</text>
+  <text x="650" y="528" class="association-label">autor do comentário</text>
+
+  <path class="association" d="M210 400 V675 H210 V810"/>
+  <text x="218" y="423" class="multiplicity">0..*</text>
+  <text x="218" y="790" class="multiplicity">1</text>
+  <text x="224" y="620" class="association-label">cria</text>
+
+  <path class="association" d="M420 950 H490"/>
+  <text x="422" y="937" class="multiplicity">0..*</text>
+  <text x="464" y="937" class="multiplicity">1</text>
+  <text x="423" y="975" class="association-label">participações</text>
+
+  <path class="association" d="M400 400 V740 H665 V810"/>
+  <text x="408" y="425" class="multiplicity">0..*</text>
+  <text x="673" y="790" class="multiplicity">1</text>
+  <text x="520" y="733" class="association-label">participa</text>
+
+  <path class="association" d="M840 950 H910"/>
+  <text x="842" y="937" class="multiplicity">0..*</text>
+  <text x="884" y="937" class="multiplicity">1</text>
+  <text x="847" y="975" class="association-label">organiza</text>
+
+  <path class="association" d="M1260 950 H1330"/>
+  <text x="1262" y="937" class="multiplicity">0..*</text>
+  <text x="1304" y="937" class="multiplicity">1</text>
+  <text x="1265" y="975" class="association-label">respostas</text>
+
+  <path class="association" d="M490 350 H450 V500 H245 V810"/>
+  <text x="458" y="372" class="multiplicity">0..1</text>
+  <text x="253" y="790" class="multiplicity">0..*</text>
+  <text x="455" y="482" class="association-label">vincula publicações</text>
+
+  <path class="association" d="M350 400 V590 H1085 V810"/>
+  <text x="358" y="425" class="multiplicity">0..*</text>
+  <text x="1050" y="790" class="multiplicity">1</text>
+  <text x="720" y="583" class="association-label">cria eventos</text>
+
+  <path class="association" d="M380 400 V635 H1505 V810"/>
+  <text x="388" y="425" class="multiplicity">0..*</text>
+  <text x="1470" y="790" class="multiplicity">1</text>
+  <text x="890" y="628" class="association-label">responde a eventos</text>
+
+  <path class="association" d="M210 400 V1160 H1925 V1090"/>
+  <text x="218" y="425" class="multiplicity">0..*</text>
+  <text x="1890" y="1115" class="multiplicity">1</text>
+  <text x="1040" y="1152" class="association-label">publica anúncios</text>
+
+  <!-- Top row -->
+  <g>
+    <rect class="box" x="70" y="140" width="350" height="260"/>
+    <text class="class-name" x="245" y="174">Usuario</text>
+    <text class="stereotype" x="245" y="196">«usuarios»</text>
+    <line class="divider" x1="70" y1="208" x2="420" y2="208"/>
+    <text class="member" x="88" y="234">- id: int</text>
+    <text class="member" x="88" y="258">- nome: String</text>
+    <text class="member" x="88" y="282">- email: String</text>
+    <text class="member" x="88" y="306">- foto: String [0..1]</text>
+    <line class="divider" x1="70" y1="318" x2="420" y2="318"/>
+    <text class="member" x="88" y="345">+ publicar(): Publicacao</text>
+    <text class="member" x="88" y="371">+ participar(): void</text>
+  </g>
+
+  <g>
+    <rect class="box" x="490" y="140" width="350" height="260"/>
+    <text class="class-name" x="665" y="174">Publicacao</text>
+    <text class="stereotype" x="665" y="196">«mensagens»</text>
+    <line class="divider" x1="490" y1="208" x2="840" y2="208"/>
+    <text class="member" x="508" y="234">- id: int</text>
+    <text class="member" x="508" y="258">- mensagem: String</text>
+    <text class="member" x="508" y="282">- categoria: String</text>
+    <text class="member" x="508" y="306">- dataPost: DateTime</text>
+    <line class="divider" x1="490" y1="318" x2="840" y2="318"/>
+    <text class="member" x="508" y="345">+ comentar(): Comentario</text>
+    <text class="member" x="508" y="371">+ reagir(tipo): Reacao</text>
+  </g>
+
+  <g>
+    <rect class="box" x="910" y="140" width="350" height="260"/>
+    <text class="class-name" x="1085" y="174">Comentario</text>
+    <text class="stereotype" x="1085" y="196">«comentarios»</text>
+    <line class="divider" x1="910" y1="208" x2="1260" y2="208"/>
+    <text class="member" x="928" y="234">- id: int</text>
+    <text class="member" x="928" y="258">- texto: String</text>
+    <text class="member" x="928" y="282">- dataComentario: DateTime</text>
+    <text class="member" x="928" y="306">- status: String</text>
+    <line class="divider" x1="910" y1="318" x2="1260" y2="318"/>
+    <text class="member" x="928" y="345">+ responder(): Comentario</text>
+    <text class="member" x="928" y="371">+ editar(): void</text>
+  </g>
+
+  <g>
+    <rect class="box" x="1330" y="140" width="350" height="260"/>
+    <text class="class-name" x="1505" y="174">Reacao</text>
+    <text class="stereotype" x="1505" y="196">«curtidas»</text>
+    <line class="divider" x1="1330" y1="208" x2="1680" y2="208"/>
+    <text class="member" x="1348" y="234">- id: int</text>
+    <text class="member" x="1348" y="258">- tipo: String</text>
+    <text class="member" x="1348" y="282">- dataReacao: DateTime</text>
+    <line class="divider" x1="1330" y1="318" x2="1680" y2="318"/>
+    <text class="member" x="1348" y="345">+ registrar(): void</text>
+    <text class="member" x="1348" y="371">+ remover(): void</text>
+  </g>
+
+  <g>
+    <rect class="box" x="1750" y="140" width="350" height="260"/>
+    <text class="class-name" x="1925" y="174">Notificacao</text>
+    <text class="stereotype" x="1925" y="196">«notificacoes»</text>
+    <line class="divider" x1="1750" y1="208" x2="2100" y2="208"/>
+    <text class="member" x="1768" y="234">- id: int</text>
+    <text class="member" x="1768" y="258">- tipo: String</text>
+    <text class="member" x="1768" y="282">- mensagem: String</text>
+    <text class="member" x="1768" y="306">- lida: Boolean</text>
+    <line class="divider" x1="1750" y1="318" x2="2100" y2="318"/>
+    <text class="member" x="1768" y="345">+ marcarComoLida(): void</text>
+    <text class="member" x="1768" y="371">+ abrirDestino(): void</text>
+  </g>
+
+  <!-- Bottom row -->
+  <g>
+    <rect class="box" x="70" y="810" width="350" height="280"/>
+    <text class="class-name" x="245" y="844">Comunidade</text>
+    <text class="stereotype" x="245" y="866">«comunidades»</text>
+    <line class="divider" x1="70" y1="878" x2="420" y2="878"/>
+    <text class="member" x="88" y="904">- id: int</text>
+    <text class="member" x="88" y="928">- nome: String</text>
+    <text class="member" x="88" y="952">- descricao: String</text>
+    <text class="member" x="88" y="976">- criadorId: int</text>
+    <line class="divider" x1="70" y1="988" x2="420" y2="988"/>
+    <text class="member" x="88" y="1015">+ adicionarMembro(): void</text>
+    <text class="member" x="88" y="1041">+ publicar(): Publicacao</text>
+  </g>
+
+  <g>
+    <rect class="box" x="490" y="810" width="350" height="280"/>
+    <text class="class-name" x="665" y="844">ParticipacaoComunidade</text>
+    <text class="stereotype" x="665" y="866">«comunidade_membros»</text>
+    <line class="divider" x1="490" y1="878" x2="840" y2="878"/>
+    <text class="member" x="508" y="904">- usuarioId: int</text>
+    <text class="member" x="508" y="928">- comunidadeId: int</text>
+    <line class="divider" x1="490" y1="988" x2="840" y2="988"/>
+    <text class="member" x="508" y="1015">+ ingressar(): void</text>
+    <text class="member" x="508" y="1041">+ sair(): void</text>
+  </g>
+
+  <g>
+    <rect class="box" x="910" y="810" width="350" height="280"/>
+    <text class="class-name" x="1085" y="844">Evento</text>
+    <text class="stereotype" x="1085" y="866">«eventos»</text>
+    <line class="divider" x1="910" y1="878" x2="1260" y2="878"/>
+    <text class="member" x="928" y="904">- id: int</text>
+    <text class="member" x="928" y="928">- nome: String</text>
+    <text class="member" x="928" y="952">- dataEvento: DateTime</text>
+    <text class="member" x="928" y="976">- local: String</text>
+    <line class="divider" x1="910" y1="988" x2="1260" y2="988"/>
+    <text class="member" x="928" y="1015">+ confirmarPresenca(): void</text>
+    <text class="member" x="928" y="1041">+ comentar(): void</text>
+  </g>
+
+  <g>
+    <rect class="box" x="1330" y="810" width="350" height="280"/>
+    <text class="class-name" x="1505" y="844">RespostaEvento</text>
+    <text class="stereotype" x="1505" y="866">«evento_respostas»</text>
+    <line class="divider" x1="1330" y1="878" x2="1680" y2="878"/>
+    <text class="member" x="1348" y="904">- usuarioId: int</text>
+    <text class="member" x="1348" y="928">- eventoId: int</text>
+    <text class="member" x="1348" y="952">- resposta: String</text>
+    <text class="member" x="1348" y="976">- dataResposta: DateTime</text>
+    <line class="divider" x1="1330" y1="988" x2="1680" y2="988"/>
+    <text class="member" x="1348" y="1015">+ registrar(): void</text>
+    <text class="member" x="1348" y="1041">+ atualizar(): void</text>
+  </g>
+
+  <g>
+    <rect class="box" x="1750" y="810" width="350" height="280"/>
+    <text class="class-name" x="1925" y="844">Anuncio</text>
+    <text class="stereotype" x="1925" y="866">«anuncios · módulo futuro»</text>
+    <line class="divider" x1="1750" y1="878" x2="2100" y2="878"/>
+    <text class="member" x="1768" y="904">- id: int</text>
+    <text class="member" x="1768" y="928">- titulo: String</text>
+    <text class="member" x="1768" y="952">- descricao: String</text>
+    <text class="member" x="1768" y="976">- preco: Decimal</text>
+    <line class="divider" x1="1750" y1="988" x2="2100" y2="988"/>
+    <text class="member" x="1768" y="1015">Fluxo funcional ainda não</text>
+    <text class="member" x="1768" y="1041">disponível ao usuário</text>
+  </g>
+
+  <rect class="note" x="70" y="1240" width="2030" height="145" rx="4"/>
+  <text class="note-text" x="95" y="1276">Observações do modelo</text>
+  <text class="note-text" x="95" y="1310">• O perfil é representado como parte de Usuario; não aparece como classe separada no modelo de dados consultado.</text>
+  <text class="note-text" x="95" y="1342">• Achados e perdidos são representados por publicações categorizadas; a associação comunidade–evento é omitida porque não há FK declarada no DER consultado.</text>
+  <text class="note-text" x="95" y="1374">• Os nomes entre « » indicam as tabelas correspondentes. Anuncio aparece apenas como estrutura do banco: o marketplace ainda não oferece fluxo funcional ao usuário.</text>
+
+  <text class="subtitle" x="70" y="1450">Fonte: elaborado pelo autor com base no modelo de dados e nas funcionalidades identificadas no projeto (2026).</text>
+</svg>
