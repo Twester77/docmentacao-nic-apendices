@@ -50,7 +50,7 @@ O diagrama de classes é conceitual. Os nomes de classe representam elementos do
 
 ### Dados, navegação e arquitetura
 
-- [`der-fenda-producao.drawio`](documentacao/der-fenda-producao.drawio) — modelo entidade-relacionamento editável, elaborado a partir de uma exportação estrutural do banco de produção, sem registros de usuários.
+- [`der-fenda-producao.drawio`](documentacao/der-fenda-producao.drawio) - Modelo entidade-relacionamento editável, conferido com schema-producao-sem-dados-preunic.sql (22 tabelas; estrutura sem registros; 06/11/2026).
 - [`diagrama-navegacao-fenda.svg`](documentacao/diagrama-navegacao-fenda.svg) — principais percursos de navegação da aplicação.
 - [`arquitetura-hospedagem-fenda.svg`](documentacao/arquitetura-hospedagem-fenda.svg) — fluxo lógico entre navegador, aplicação, banco de dados e serviços externos identificados.
 

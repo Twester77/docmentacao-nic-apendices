@@ -1,155 +1,226 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1700" height="1180" viewBox="0 0 1700 1180" style="width:100%;height:auto;display:block" role="img" aria-labelledby="title desc">
-  <title id="title">Fluxo de navegação da plataforma A Fenda</title>
-  <desc id="desc">Mapa de navegação da Fenda desde a entrada até feed, comunidades, eventos, utilidades, perfil, central do habitante e páginas institucionais.</desc>
-  <defs>
-    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
-      <path d="M0,0 L10,5 L0,10 z" fill="#475569"/>
-    </marker>
-    <style>
-      text { font-family: Arial, Helvetica, sans-serif; fill: #172033; }
-      .page { fill: #f8fafc; stroke: #94a3b8; stroke-width: 2; rx: 18; }
-      .title { font-size: 36px; font-weight: 700; }
-      .subtitle { font-size: 18px; fill: #475569; }
-      .group { fill: #eff6ff; stroke: #64748b; stroke-width: 2; rx: 16; }
-      .group-green { fill: #ecfdf5; stroke: #059669; stroke-width: 2; rx: 16; }
-      .group-amber { fill: #fffbeb; stroke: #d97706; stroke-width: 2; rx: 16; }
-      .group-purple { fill: #f5f3ff; stroke: #7c3aed; stroke-width: 2; rx: 16; }
-      .group-title { font-size: 23px; font-weight: 700; }
-      .box { fill: #ffffff; stroke: #2563eb; stroke-width: 2; rx: 10; }
-      .box-green { fill: #ffffff; stroke: #059669; stroke-width: 2; rx: 10; }
-      .box-amber { fill: #ffffff; stroke: #d97706; stroke-width: 2; rx: 10; }
-      .box-purple { fill: #ffffff; stroke: #7c3aed; stroke-width: 2; rx: 10; }
-      .box-title { font-size: 18px; font-weight: 700; text-anchor: middle; }
-      .box-note { font-size: 14px; fill: #475569; text-anchor: middle; }
-      .line { fill: none; stroke: #475569; stroke-width: 2.5; marker-end: url(#arrow); }
-      .line-dash { fill: none; stroke: #7c3aed; stroke-width: 2.5; stroke-dasharray: 7 6; marker-end: url(#arrow); }
-    </style>
-  </defs>
-  <rect width="1700" height="1180" fill="#e2e8f0"/>
-  <rect class="page" x="24" y="22" width="1652" height="1136"/>
-  <text class="title" x="58" y="66">Fluxo de navegação da plataforma A Fenda</text>
-  <text class="subtitle" x="58" y="94">Principais áreas e caminhos de navegação identificados na aplicação.</text>
-
-  <rect class="group" x="60" y="125" width="300" height="210"/>
-  <text class="group-title" x="82" y="158">1. Entrada</text>
-  <rect class="box" x="95" y="180" width="230" height="52"/>
-  <text class="box-title" x="210" y="212">Início / Entrar</text>
-  <rect class="box" x="95" y="250" width="230" height="62"/>
-  <text class="box-title" x="210" y="276">Cadastro / ativação</text>
-  <text class="box-note" x="210" y="299">da conta</text>
-
-  <rect class="group-green" x="425" y="125" width="1215" height="210"/>
-  <text class="group-title" x="450" y="158">2. Área autenticada — Feed Geral</text>
-  <rect class="box-green" x="465" y="188" width="230" height="80"/>
-  <text class="box-title" x="580" y="220">Feed</text>
-  <text class="box-note" x="580" y="243">publicações e filtros</text>
-  <rect class="box-green" x="755" y="180" width="245" height="68"/>
-  <text class="box-title" x="877" y="207">Criar publicação</text>
-  <text class="box-note" x="877" y="231">texto / mídia / categoria</text>
-  <rect class="box-green" x="755" y="258" width="245" height="55"/>
-  <text class="box-title" x="877" y="282">Comentários e reações</text>
-  <text class="box-note" x="877" y="301">abrir a conversa da publicação</text>
-  <rect class="box-green" x="1065" y="180" width="245" height="68"/>
-  <text class="box-title" x="1187" y="207">Categorias / comunidades</text>
-  <text class="box-note" x="1187" y="231">filtros do feed</text>
-  <rect class="box-green" x="1065" y="258" width="245" height="55"/>
-  <text class="box-title" x="1187" y="282">Achados e perdidos</text>
-  <text class="box-note" x="1187" y="301">posts do feed: “achei” / “perdi”</text>
-  <rect class="box-green" x="1360" y="210" width="235" height="76"/>
-  <text class="box-title" x="1477" y="239">Perfil público</text>
-  <text class="box-note" x="1477" y="265">do autor da publicação</text>
-
-  <path class="line" d="M325 206 H455"/>
-  <path class="line" d="M325 281 C385 281 397 242 455 242"/>
-  <path class="line" d="M695 207 H745"/>
-  <path class="line" d="M695 246 C720 246 730 285 745 285"/>
-  <path class="line" d="M1000 210 H1055"/>
-  <path class="line" d="M1000 286 H1055"/>
-  <path class="line" d="M1310 210 H1330 V248 H1350"/>
-
-  <rect class="group" x="60" y="375" width="490" height="355"/>
-  <text class="group-title" x="82" y="408">3. Comunidades</text>
-  <rect class="box" x="92" y="435" width="205" height="70"/>
-  <text class="box-title" x="194" y="460">Lista de comunidades</text>
-  <text class="box-note" x="194" y="485">buscar / descobrir</text>
-  <rect class="box" x="320" y="435" width="200" height="70"/>
-  <text class="box-title" x="420" y="460">Página da</text>
-  <text class="box-title" x="420" y="482">comunidade</text>
-  <rect class="box" x="92" y="525" width="205" height="70"/>
-  <text class="box-title" x="194" y="550">Solicitar / participar</text>
-  <text class="box-note" x="194" y="579">membros e solicitações</text>
-  <rect class="box" x="320" y="525" width="200" height="70"/>
-  <text class="box-title" x="420" y="550">Publicar na</text>
-  <text class="box-title" x="420" y="572">comunidade</text>
-  <rect class="box" x="92" y="615" width="205" height="70"/>
-  <text class="box-title" x="194" y="640">Criar comunidade</text>
-  <text class="box-note" x="194" y="669">ou editar se autorizado</text>
-  <rect class="box" x="320" y="615" width="200" height="70"/>
-  <text class="box-title" x="420" y="640">Eventos da</text>
-  <text class="box-title" x="420" y="662">comunidade</text>
-  <path class="line" d="M297 465 H310"/>
-  <path class="line" d="M420 495 C420 510 194 510 194 515"/>
-  <path class="line" d="M297 555 H310"/>
-  <path class="line" d="M420 585 V605"/>
-  <path class="line" d="M194 495 V605"/>
-
-  <rect class="group-amber" x="590" y="375" width="490" height="355"/>
-  <text class="group-title" x="612" y="408">4. Eventos — Balanga Teras</text>
-  <rect class="box-amber" x="622" y="435" width="200" height="60"/>
-  <text class="box-title" x="722" y="460">Lista / modo grid</text>
-  <text class="box-note" x="722" y="485">eventos disponíveis</text>
-  <rect class="box-amber" x="850" y="435" width="200" height="70"/>
-  <text class="box-title" x="950" y="460">Detalhes do</text>
-  <text class="box-title" x="950" y="482">evento</text>
-  <rect class="box-amber" x="622" y="525" width="200" height="60"/>
-  <text class="box-title" x="722" y="550">Responder / comentar</text>
-  <text class="box-note" x="722" y="579">interação com o evento</text>
-  <rect class="box-amber" x="850" y="525" width="200" height="70"/>
-  <text class="box-title" x="950" y="550">Criar / editar</text>
-  <text class="box-title" x="950" y="572">evento</text>
-  <rect class="box-amber" x="622" y="615" width="428" height="60"/>
-  <text class="box-title" x="836" y="640">Cancelar evento</text>
-  <text class="box-note" x="836" y="660">fluxo de gestão do evento</text>
-  <path class="line" d="M822 465 H840"/>
-  <path class="line" d="M950 495 C950 510 722 510 722 515"/>
-  <path class="line" d="M950 495 V515"/>
-  <path class="line" d="M950 585 V605"/>
-
-  <rect class="group-purple" x="1120" y="375" width="520" height="355"/>
-  <text class="group-title" x="1142" y="408">5. Perfil e Central do Habitante</text>
-  <rect class="box-purple" x="1152" y="435" width="205" height="70"/>
-  <text class="box-title" x="1254" y="460">Perfil público</text>
-  <text class="box-note" x="1254" y="485">ver perfil / seguir</text>
-  <rect class="box-purple" x="1380" y="435" width="225" height="70"/>
-  <text class="box-title" x="1492" y="460">Depoimentos</text>
-  <text class="box-note" x="1492" y="485">escrever / aprovar</text>
-  <rect class="box-purple" x="1152" y="525" width="205" height="70"/>
-  <text class="box-title" x="1254" y="550">Configurações</text>
-  <text class="box-note" x="1254" y="579">preferências do usuário</text>
-  <rect class="box-purple" x="1380" y="525" width="225" height="70"/>
-  <text class="box-title" x="1492" y="550">Central — abas</text>
-  <text class="box-note" x="1492" y="579">conteúdo e gestão da conta</text>
-  <rect class="box-purple" x="1152" y="615" width="453" height="88"/>
-  <text class="box-title" x="1378" y="641">Posts · Comunidades · Depoimentos</text>
-  <text class="box-title" x="1378" y="664">Notificações</text>
-  <text class="box-note" x="1378" y="688">Solicitações · Sessões · Favoritos* · Marketplace*</text>
-  <path class="line" d="M1357 465 H1370"/>
-  <path class="line" d="M1357 555 H1370"/>
-  <path class="line" d="M1492 585 V605"/>
-
-  <rect class="group" x="60" y="770" width="1580" height="245"/>
-  <text class="group-title" x="82" y="803">6. Utilidades e páginas institucionais</text>
-  <rect class="box" x="145" y="845" width="300" height="80"/>
-  <text class="box-title" x="295" y="875">Achados &amp; Perdidos</text>
-  <text class="box-note" x="295" y="903">consulta por categoria</text>
-  <rect class="box" x="680" y="845" width="300" height="80"/>
-  <text class="box-title" x="830" y="875">Classificados</text>
-  <text class="box-note" x="830" y="903">área utilitária</text>
-  <rect class="box" x="1215" y="845" width="300" height="80"/>
-  <text class="box-title" x="1365" y="875">Quem Somos / Diretrizes</text>
-  <text class="box-note" x="1365" y="903">páginas institucionais</text>
-  <text class="box-note" x="850" y="965">Achados e perdidos também classifica publicações do feed como “achei” ou “perdi”.</text>
-
-  <text class="subtitle" x="62" y="1065">Legenda: setas sólidas = navegação principal observada no menu/áreas da aplicação.</text>
-  <text class="subtitle" x="62" y="1094">* Abas visíveis com implementação incompleta/em desenvolvimento no código observado.</text>
-</svg>
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" pages="5">
+  <diagram id="5df9cc9625ed4aeaa8d3e3b2ef71565b" name="DER - Publicacoes">
+    <mxGraphModel dx="1500" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="1000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title0" value="DER Fenda — Publicações, comentários e reações" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=20;fontStyle=1;fontColor=#17365D;fillColor=#f4f8ff;fillOpacity=82;strokeColor=#dbe7f5;strokeWidth=1;shadow=1;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="40" y="20" width="1420" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="legend0" value="Pé de galinha = muitos; círculo = opcional; barra = um. PK/FK/NULL/UQ identificam as regras dos campos." style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#475569;" vertex="1" parent="1">
+          <mxGeometry x="40" y="82" width="1420" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="usuarios" parent="1" style="shape=rectangle;rounded=1;arcSize=12;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=8;fillColor=#eff6ff;gradientColor=#dbeafe;gradientDirection=south;fillOpacity=88;strokeColor=#2563eb;strokeWidth=1.2;shadow=1;fontSize=16;fontColor=#243447;" value="&lt;table border=&quot;0&quot; cellpadding=&quot;3&quot; cellspacing=&quot;0&quot; width=&quot;100%&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;usuarios (27 colunas)&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;PK id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;nome, username [UQ, NULL], email [UQ], senha&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;foto, bio, capa, atletica_id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;data_cadastro, token, ativo&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;pref_vibe_comentario, pref_cor_borda&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;pref_vibe_padrao, pref_cor_padrao&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;pref_swipe, pref_bolhas, ultima_atividade&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;pref_som_trilha, pref_som_notif, pref_lupa&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;pref_pip, pref_badge, pref_notif_comunidade&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;pref_swipe_balanga&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;pref_estilo_comentario&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="380" width="360" x="40" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="mensagens" parent="1" style="shape=rectangle;rounded=1;arcSize=12;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=8;fillColor=#ecfdf5;gradientColor=#d1fae5;gradientDirection=south;fillOpacity=88;strokeColor=#16a34a;strokeWidth=1.2;shadow=1;fontSize=16;fontColor=#243447;" value="&lt;table border=&quot;0&quot; cellpadding=&quot;3&quot; cellspacing=&quot;0&quot; width=&quot;100%&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;mensagens&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;PK id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK usuario_id [NULL] -&amp;gt; usuarios.id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;mensagem, imagem_url, anexos&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;categoria, subcategoria, data_post, status&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK comunidade_id [NULL] -&amp;gt; comunidades.id&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="230" width="340" x="500" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="comentarios" parent="1" style="shape=rectangle;rounded=1;arcSize=12;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=8;fillColor=#ecfdf5;gradientColor=#d1fae5;gradientDirection=south;fillOpacity=88;strokeColor=#16a34a;strokeWidth=1.2;shadow=1;fontSize=16;fontColor=#243447;" value="&lt;table border=&quot;0&quot; cellpadding=&quot;3&quot; cellspacing=&quot;0&quot; width=&quot;100%&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;comentarios&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;PK id; FK id_mensagem -&amp;gt; mensagens.id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;comentario, data_comentario, usuario_nome&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK usuario_id [NULL] -&amp;gt; usuarios.id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK parent_id [NULL] -&amp;gt; comentarios.id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;pref_vibe_comentario, pref_cor_borda&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;imagem_url, anexos, status, ip_origem&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="270" width="360" x="1020" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="curtidas" parent="1" style="shape=rectangle;rounded=1;arcSize=12;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=8;fillColor=#ecfdf5;gradientColor=#d1fae5;gradientDirection=south;fillOpacity=88;strokeColor=#16a34a;strokeWidth=1.2;shadow=1;fontSize=16;fontColor=#243447;" value="&lt;table border=&quot;0&quot; cellpadding=&quot;3&quot; cellspacing=&quot;0&quot; width=&quot;100%&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;curtidas&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;PK id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK mensagem_id -&amp;gt; mensagens.id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK usuario_id -&amp;gt; usuarios.id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;tipo_reacao, data_reacao&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;UQ (usuario_id, mensagem_id)&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="220" width="360" x="1020" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="notificacoes" parent="1" style="shape=rectangle;rounded=1;arcSize=12;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=8;fillColor=#ecfdf5;gradientColor=#d1fae5;gradientDirection=south;fillOpacity=88;strokeColor=#16a34a;strokeWidth=1.2;shadow=1;fontSize=16;fontColor=#243447;" value="&lt;table border=&quot;0&quot; cellpadding=&quot;3&quot; cellspacing=&quot;0&quot; width=&quot;100%&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;notificacoes&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;PK id; FK usuario_id -&amp;gt; usuarios.id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK post_id [NULL] -&amp;gt; mensagens.id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK evento_id [NULL] -&amp;gt; eventos.id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;tipo, mensagem, lida, data_criacao&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="225" width="340" x="500" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="fk_com_msg" edge="1" parent="1" source="comentarios" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#475569;fontSize=14;endArrow=ERone;startArrow=ERzeroToMany;" target="mensagens" value="publicacao">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fk_com_parent" edge="1" parent="1" source="comentarios" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#475569;fontSize=14;endArrow=ERzeroToOne;startArrow=ERzeroToMany;" target="comentarios" value="resposta">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fk_like_user" edge="1" parent="1" source="curtidas" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#475569;fontSize=14;endArrow=ERone;startArrow=ERzeroToMany;" target="usuarios" value="usuario">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fk_not_post" edge="1" parent="1" source="notificacoes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#475569;fontSize=14;endArrow=ERzeroToOne;startArrow=ERzeroToMany;" target="mensagens" value="publicacao">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fk_com_user" edge="1" parent="1" source="comentarios" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#475569;fontSize=14;endArrow=ERzeroToOne;startArrow=ERzeroToMany;" target="usuarios" value="autor">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fk_like_msg" edge="1" parent="1" source="curtidas" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#475569;fontSize=14;endArrow=ERone;startArrow=ERzeroToMany;" target="mensagens" value="publicacao">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fk_not_user" edge="1" parent="1" source="notificacoes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#475569;fontSize=14;endArrow=ERone;startArrow=ERzeroToMany;" target="usuarios" value="destinatario">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fk_msg_user" edge="1" parent="1" source="mensagens" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#475569;fontSize=14;endArrow=ERzeroToOne;startArrow=ERzeroToMany;" target="usuarios" value="usuario">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="68c3d47ab8b24aeda3c339c623ce5089" name="DER - Comunidades">
+    <mxGraphModel dx="1500" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="1000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title1" value="DER Fenda — Comunidades e publicações associadas" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=20;fontStyle=1;fontColor=#17365D;fillColor=#f4f8ff;fillOpacity=82;strokeColor=#dbe7f5;strokeWidth=1;shadow=1;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="40" y="20" width="1420" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="legend1" value="A tabela usuarios se repete para manter este recorte legível. Pé de galinha = muitos; círculo = opcional; barra = um." style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#475569;" vertex="1" parent="1">
+          <mxGeometry x="40" y="82" width="1420" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="usuarios" parent="1" style="shape=rectangle;rounded=1;arcSize=12;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=8;fillColor=#eff6ff;gradientColor=#dbeafe;gradientDirection=south;fillOpacity=88;strokeColor=#2563eb;strokeWidth=1.2;shadow=1;fontSize=16;fontColor=#243447;" value="&lt;table border=&quot;0&quot; cellpadding=&quot;3&quot; cellspacing=&quot;0&quot; width=&quot;100%&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;usuarios (27 colunas)&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;PK id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;nome, username [UQ, NULL], email [UQ], senha&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;foto, bio, capa, atletica_id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;data_cadastro, token, ativo&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;pref_vibe_comentario, pref_cor_borda&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;pref_vibe_padrao, pref_cor_padrao&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;pref_swipe, pref_bolhas, ultima_atividade&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;pref_som_trilha, pref_som_notif, pref_lupa&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;pref_pip, pref_badge, pref_notif_comunidade&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;pref_swipe_balanga&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;pref_estilo_comentario&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="380" width="360" x="40" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="comunidades" parent="1" style="shape=rectangle;rounded=1;arcSize=12;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=8;fillColor=#eff6ff;gradientColor=#dbeafe;gradientDirection=south;fillOpacity=88;strokeColor=#2563eb;strokeWidth=1.2;shadow=1;fontSize=16;fontColor=#243447;" value="&lt;table border=&quot;0&quot; cellpadding=&quot;3&quot; cellspacing=&quot;0&quot; width=&quot;100%&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;comunidades&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;PK id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;nome, slug [UQ], descricao&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;tipo, capa&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK criador_id -&amp;gt; usuarios.id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;data_criacao&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="220" width="350" x="550" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="comunidade_membros" parent="1" style="shape=rectangle;rounded=1;arcSize=12;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=8;fillColor=#eff6ff;gradientColor=#dbeafe;gradientDirection=south;fillOpacity=88;strokeColor=#2563eb;strokeWidth=1.2;shadow=1;fontSize=16;fontColor=#243447;" value="&lt;table border=&quot;0&quot; cellpadding=&quot;3&quot; cellspacing=&quot;0&quot; width=&quot;100%&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;comunidade_membros&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;PK, FK comunidade_id -&amp;gt; comunidades.id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;PK, FK usuario_id -&amp;gt; usuarios.id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;papel, data_entrada, status&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="180" width="350" x="550" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="mensagens" parent="1" style="shape=rectangle;rounded=1;arcSize=12;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=8;fillColor=#ecfdf5;gradientColor=#d1fae5;gradientDirection=south;fillOpacity=88;strokeColor=#16a34a;strokeWidth=1.2;shadow=1;fontSize=16;fontColor=#243447;" value="&lt;table border=&quot;0&quot; cellpadding=&quot;3&quot; cellspacing=&quot;0&quot; width=&quot;100%&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;mensagens&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;PK id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK usuario_id [NULL] -&amp;gt; usuarios.id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;mensagem, imagem_url, anexos&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;categoria, subcategoria, data_post, status&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK comunidade_id [NULL] -&amp;gt; comunidades.id&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="230" width="350" x="1060" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="fk_msg_com" edge="1" parent="1" source="mensagens" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#475569;fontSize=14;endArrow=ERzeroToOne;startArrow=ERzeroToMany;" target="comunidades" value="comunidade">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fk_cm_user" edge="1" parent="1" source="comunidade_membros" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#475569;fontSize=14;endArrow=ERone;startArrow=ERzeroToMany;" target="usuarios" value="membro">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fk_cm_com" edge="1" parent="1" source="comunidade_membros" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#475569;fontSize=14;endArrow=ERone;startArrow=ERzeroToMany;" target="comunidades" value="participacao">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fk_com_creator" edge="1" parent="1" source="comunidades" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#475569;fontSize=14;endArrow=ERone;startArrow=ERzeroToMany;" target="usuarios" value="criador">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="621d61144c0240aab1048663611276f3" name="DER - Perfil">
+    <mxGraphModel dx="1500" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="1000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title2" value="DER Fenda — Perfil e relações entre usuários" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=20;fontStyle=1;fontColor=#17365D;fillColor=#f4f8ff;fillOpacity=82;strokeColor=#dbe7f5;strokeWidth=1;shadow=1;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="40" y="20" width="1420" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="legend2" value="A tabela usuarios se repete para manter este recorte legível. Os campos FK/NULL ficam nas caixas; as pontas indicam cardinalidade." style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#475569;" vertex="1" parent="1">
+          <mxGeometry x="40" y="82" width="1420" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="usuarios" parent="1" style="shape=rectangle;rounded=1;arcSize=12;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=8;fillColor=#eff6ff;gradientColor=#dbeafe;gradientDirection=south;fillOpacity=88;strokeColor=#2563eb;strokeWidth=1.2;shadow=1;fontSize=16;fontColor=#243447;" value="&lt;table border=&quot;0&quot; cellpadding=&quot;3&quot; cellspacing=&quot;0&quot; width=&quot;100%&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;usuarios (27 colunas)&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;PK id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;nome, username [UQ, NULL], email [UQ], senha&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;foto, bio, capa, atletica_id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;data_cadastro, token, ativo&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;pref_vibe_comentario, pref_cor_borda&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;pref_vibe_padrao, pref_cor_padrao&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;pref_swipe, pref_bolhas, ultima_atividade&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;pref_som_trilha, pref_som_notif, pref_lupa&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;pref_pip, pref_badge, pref_notif_comunidade&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;pref_swipe_balanga&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;pref_estilo_comentario&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="380" width="360" x="40" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="seguidores" parent="1" style="shape=rectangle;rounded=1;arcSize=12;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=8;fillColor=#f5f3ff;gradientColor=#ede9fe;gradientDirection=south;fillOpacity=88;strokeColor=#7e22ce;strokeWidth=1.2;shadow=1;fontSize=16;fontColor=#243447;" value="&lt;table border=&quot;0&quot; cellpadding=&quot;3&quot; cellspacing=&quot;0&quot; width=&quot;100%&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;seguidores&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;PK id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK id_seguidor -&amp;gt; usuarios.id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK id_seguido -&amp;gt; usuarios.id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;data_seguida; UQ (id_seguidor,id_seguido)&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="190" width="370" x="520" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="avaliacoes_perfil" parent="1" style="shape=rectangle;rounded=1;arcSize=12;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=8;fillColor=#f5f3ff;gradientColor=#ede9fe;gradientDirection=south;fillOpacity=88;strokeColor=#7e22ce;strokeWidth=1.2;shadow=1;fontSize=16;fontColor=#243447;" value="&lt;table border=&quot;0&quot; cellpadding=&quot;3&quot; cellspacing=&quot;0&quot; width=&quot;100%&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;avaliacoes_perfil&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;PK id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK usuario_avaliado_id -&amp;gt; usuarios.id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK usuario_avaliador_id -&amp;gt; usuarios.id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;tipo, data_avaliacao, nota&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;UQ (avaliado, avaliador, tipo)&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="220" width="370" x="520" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="depoimentos" parent="1" style="shape=rectangle;rounded=1;arcSize=12;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=8;fillColor=#f5f3ff;gradientColor=#ede9fe;gradientDirection=south;fillOpacity=88;strokeColor=#7e22ce;strokeWidth=1.2;shadow=1;fontSize=16;fontColor=#243447;" value="&lt;table border=&quot;0&quot; cellpadding=&quot;3&quot; cellspacing=&quot;0&quot; width=&quot;100%&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;depoimentos&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;PK id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK autor_id -&amp;gt; usuarios.id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK destinatario_id -&amp;gt; usuarios.id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;mensagem, status, data_criacao&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;data_aprovacao&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="200" width="370" x="520" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="anuncios" parent="1" style="shape=rectangle;rounded=1;arcSize=12;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=8;fillColor=#fffbeb;gradientColor=#fef3c7;gradientDirection=south;fillOpacity=88;strokeColor=#d97706;strokeWidth=1.2;shadow=1;fontSize=16;fontColor=#243447;" value="&lt;table border=&quot;0&quot; cellpadding=&quot;3&quot; cellspacing=&quot;0&quot; width=&quot;100%&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;anuncios&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;PK id; FK usuario_id -&amp;gt; usuarios.id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;titulo, descricao, preco, imagem_url&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;categoria, tipo, status, data_criacao&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="190" width="340" x="1050" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="fk_follow_b" edge="1" parent="1" source="seguidores" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#7e22ce;fontSize=14;endArrow=ERone;startArrow=ERzeroToMany;" target="usuarios" value="seguido">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fk_eval_subject" edge="1" parent="1" source="avaliacoes_perfil" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#475569;fontSize=14;endArrow=ERone;startArrow=ERzeroToMany;" target="usuarios" value="avaliado">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fk_follow_a" edge="1" parent="1" source="seguidores" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#475569;fontSize=14;endArrow=ERone;startArrow=ERzeroToMany;" target="usuarios" value="seguidor">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fk_test_target" edge="1" parent="1" source="depoimentos" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#7e22ce;fontSize=14;endArrow=ERone;startArrow=ERzeroToMany;" target="usuarios" value="destinatario">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fk_eval_author" edge="1" parent="1" source="avaliacoes_perfil" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#7e22ce;fontSize=14;endArrow=ERone;startArrow=ERzeroToMany;" target="usuarios" value="avaliador">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fk_ads_user" edge="1" parent="1" source="anuncios" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#475569;fontSize=14;endArrow=ERone;startArrow=ERzeroToMany;" target="usuarios" value="anunciante">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fk_test_author" edge="1" parent="1" source="depoimentos" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#475569;fontSize=14;endArrow=ERone;startArrow=ERzeroToMany;" target="usuarios" value="autor">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="49d8207843f74e6297239f9784b188de" name="DER - Eventos">
+    <mxGraphModel dx="1500" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="1000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title3" value="DER Fenda — Eventos, respostas e comentários" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=20;fontStyle=1;fontColor=#17365D;fillColor=#f4f8ff;fillOpacity=82;strokeColor=#dbe7f5;strokeWidth=1;shadow=1;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="40" y="20" width="1420" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="legend3" value="A tabela usuarios se repete para manter este recorte legível. Os campos FK/NULL ficam nas caixas; as pontas indicam cardinalidade." style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#475569;" vertex="1" parent="1">
+          <mxGeometry x="40" y="82" width="1420" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="usuarios" parent="1" style="shape=rectangle;rounded=1;arcSize=12;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=8;fillColor=#eff6ff;gradientColor=#dbeafe;gradientDirection=south;fillOpacity=88;strokeColor=#2563eb;strokeWidth=1.2;shadow=1;fontSize=16;fontColor=#243447;" value="&lt;table border=&quot;0&quot; cellpadding=&quot;3&quot; cellspacing=&quot;0&quot; width=&quot;100%&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;usuarios (27 colunas)&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;PK id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;nome, username [UQ, NULL], email [UQ], senha&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;foto, bio, capa, atletica_id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;data_cadastro, token, ativo&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;pref_vibe_comentario, pref_cor_borda&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;pref_vibe_padrao, pref_cor_padrao&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;pref_swipe, pref_bolhas, ultima_atividade&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;pref_som_trilha, pref_som_notif, pref_lupa&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;pref_pip, pref_badge, pref_notif_comunidade&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;pref_swipe_balanga&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;pref_estilo_comentario&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="380" width="360" x="40" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="eventos" parent="1" style="shape=rectangle;rounded=1;arcSize=12;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=8;fillColor=#fffbeb;gradientColor=#fef3c7;gradientDirection=south;fillOpacity=88;strokeColor=#d97706;strokeWidth=1.2;shadow=1;fontSize=16;fontColor=#243447;" value="&lt;table border=&quot;0&quot; cellpadding=&quot;3&quot; cellspacing=&quot;0&quot; width=&quot;100%&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;eventos&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;PK id; FK criador_id -&amp;gt; usuarios.id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK comunidade_id [NULL] -&amp;gt; comunidades.id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;nome, descricao, local, data_evento&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;imagem_url, anexos, status, data_criacao&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="240" width="370" x="550" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="evento_respostas" parent="1" style="shape=rectangle;rounded=1;arcSize=12;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=8;fillColor=#fffbeb;gradientColor=#fef3c7;gradientDirection=south;fillOpacity=88;strokeColor=#d97706;strokeWidth=1.2;shadow=1;fontSize=16;fontColor=#243447;" value="&lt;table border=&quot;0&quot; cellpadding=&quot;3&quot; cellspacing=&quot;0&quot; width=&quot;100%&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;evento_respostas&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;PK, FK evento_id -&amp;gt; eventos.id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;PK, FK usuario_id -&amp;gt; usuarios.id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;resposta, data_resposta&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="170" width="370" x="1080" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="evento_comentarios" parent="1" style="shape=rectangle;rounded=1;arcSize=12;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=8;fillColor=#fffbeb;gradientColor=#fef3c7;gradientDirection=south;fillOpacity=88;strokeColor=#d97706;strokeWidth=1.2;shadow=1;fontSize=16;fontColor=#243447;" value="&lt;table border=&quot;0&quot; cellpadding=&quot;3&quot; cellspacing=&quot;0&quot; width=&quot;100%&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;evento_comentarios&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;PK id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK evento_id -&amp;gt; eventos.id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK usuario_id -&amp;gt; usuarios.id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;comentario, anexos, data_criacao&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="180" width="370" x="1080" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="comunidades" parent="1" style="shape=rectangle;rounded=1;arcSize=12;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=8;fillColor=#fffbeb;gradientColor=#fef3c7;gradientDirection=south;fillOpacity=88;strokeColor=#d97706;strokeWidth=1.2;shadow=1;fontSize=16;fontColor=#243447;" value="&lt;table border=&quot;0&quot; cellpadding=&quot;3&quot; cellspacing=&quot;0&quot; width=&quot;100%&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;comunidades&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;PK id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;nome, slug [UQ], descricao&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;tipo, capa&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK criador_id -&amp;gt; usuarios.id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;data_criacao&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;" vertex="1"><mxGeometry height="220" width="370" x="550" y="700" as="geometry" /></mxCell><mxCell id="notificacoes" parent="1" style="shape=rectangle;rounded=1;arcSize=12;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=8;fillColor=#fffbeb;gradientColor=#fef3c7;gradientDirection=south;fillOpacity=88;strokeColor=#d97706;strokeWidth=1.2;shadow=1;fontSize=16;fontColor=#243447;" value="&lt;table border=&quot;0&quot; cellpadding=&quot;3&quot; cellspacing=&quot;0&quot; width=&quot;100%&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;notificacoes&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;PK id; FK usuario_id -&amp;gt; usuarios.id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK post_id [NULL] -&amp;gt; mensagens.id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK evento_id [NULL] -&amp;gt; eventos.id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;tipo, mensagem, lida, data_criacao&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;" vertex="1"><mxGeometry height="230" width="370" x="1080" y="320" as="geometry" /></mxCell><mxCell id="fk_er_event" edge="1" parent="1" source="evento_respostas" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#d97706;fontSize=14;endArrow=ERone;startArrow=ERzeroToMany;" target="eventos" value="evento">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fk_event_creator" edge="1" parent="1" source="eventos" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#475569;fontSize=14;endArrow=ERone;startArrow=ERzeroToMany;" target="usuarios" value="criador">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fk_ec_event" edge="1" parent="1" source="evento_comentarios" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#d97706;fontSize=14;endArrow=ERone;startArrow=ERzeroToMany;" target="eventos" value="evento">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fk_ec_user" edge="1" parent="1" source="evento_comentarios" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#475569;fontSize=14;endArrow=ERone;startArrow=ERzeroToMany;" target="usuarios" value="autor">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fk_er_user" edge="1" parent="1" source="evento_respostas" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#475569;fontSize=14;endArrow=ERone;startArrow=ERzeroToMany;" target="usuarios" value="participante">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      <mxCell id="fk_event_community" value="comunidade (opcional)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#d97706;fontSize=14;endArrow=ERzeroToOne;startArrow=ERzeroToMany;" edge="1" parent="1" source="eventos" target="comunidades"><mxGeometry relative="1" as="geometry" /></mxCell><mxCell id="fk_not_event" value="evento" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#d97706;fontSize=14;endArrow=ERzeroToOne;startArrow=ERzeroToMany;" edge="1" parent="1" source="notificacoes" target="eventos"><mxGeometry relative="1" as="geometry" /></mxCell><mxCell id="fk_not_user_event_page" value="destinatario" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#475569;fontSize=14;endArrow=ERone;startArrow=ERzeroToMany;" edge="1" parent="1" source="notificacoes" target="usuarios"><mxGeometry relative="1" as="geometry" /></mxCell></root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="DER - Operacional" id="1aoWQp-eHW-VQtX78ONS">
+    <mxGraphModel dx="1768" dy="929" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="950" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title2" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=20;fontStyle=1;fontColor=#17365D;fillColor=#f4f8ff;fillOpacity=82;strokeColor=#dbe7f5;strokeWidth=1;shadow=1;spacing=10;" value="DER Fenda - tabelas operacionais sem FKs declaradas" vertex="1">
+          <mxGeometry height="50" width="1420" x="40" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="legend2" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#475569;" value="Estas tabelas aparecem no dump sem constraints FOREIGN KEY. Colunas chamadas usuario_id/ip_address não são relacionadas automaticamente." vertex="1">
+          <mxGeometry height="50" width="1420" x="40" y="82" as="geometry" />
+        </mxCell>
+        <mxCell id="comentarios_ip_log" parent="1" style="shape=rectangle;rounded=1;arcSize=12;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=8;fillColor=#f8fbff;fillOpacity=88;strokeColor=#64748b;strokeWidth=1.2;shadow=1;fontSize=16;fontColor=#243447;" value="&lt;table border=&quot;0&quot; cellpadding=&quot;3&quot; cellspacing=&quot;0&quot; width=&quot;100%&quot;&gt;&lt;tr&gt;&lt;td bgcolor=&quot;#f1f5f9&quot;&gt;&lt;b&gt;comentarios_ip_log&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;PK id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ip_address, tentativa&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="140" width="330" x="50" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="logs_auditoria" parent="1" style="shape=rectangle;rounded=1;arcSize=12;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=8;fillColor=#f8fbff;fillOpacity=88;strokeColor=#64748b;strokeWidth=1.2;shadow=1;fontSize=16;fontColor=#243447;" value="&lt;table border=&quot;0&quot; cellpadding=&quot;3&quot; cellspacing=&quot;0&quot; width=&quot;100%&quot;&gt;&lt;tr&gt;&lt;td bgcolor=&quot;#f1f5f9&quot;&gt;&lt;b&gt;logs_auditoria&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;PK id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;usuario_id (sem FK), acao, detalhes, data_hora&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="150" width="340" x="430" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="rate_limiter_avaliacoes" parent="1" style="shape=rectangle;rounded=1;arcSize=12;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=8;fillColor=#f8fbff;fillOpacity=88;strokeColor=#64748b;strokeWidth=1.2;shadow=1;fontSize=16;fontColor=#243447;" value="&lt;table border=&quot;0&quot; cellpadding=&quot;3&quot; cellspacing=&quot;0&quot; width=&quot;100%&quot;&gt;&lt;tr&gt;&lt;td bgcolor=&quot;#f1f5f9&quot;&gt;&lt;b&gt;rate_limiter_avaliacoes&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;PK id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ip_address, tentativa&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;UQ (ip_address, tentativa)&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="170" width="330" x="820" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="rate_limiter_depoimentos" parent="1" style="shape=rectangle;rounded=1;arcSize=12;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=8;fillColor=#f8fbff;fillOpacity=88;strokeColor=#64748b;strokeWidth=1.2;shadow=1;fontSize=16;fontColor=#243447;" value="&lt;table border=&quot;0&quot; cellpadding=&quot;3&quot; cellspacing=&quot;0&quot; width=&quot;100%&quot;&gt;&lt;tr&gt;&lt;td bgcolor=&quot;#f1f5f9&quot;&gt;&lt;b&gt;rate_limiter_depoimentos&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;PK id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ip_address, tentativa&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;UQ (ip_address, tentativa)&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="170" width="330" x="1210" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="rate_limiter_polling" parent="1" style="shape=rectangle;rounded=1;arcSize=12;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=8;fillColor=#f8fbff;fillOpacity=88;strokeColor=#64748b;strokeWidth=1.2;shadow=1;fontSize=16;fontColor=#243447;" value="&lt;table border=&quot;0&quot; cellpadding=&quot;3&quot; cellspacing=&quot;0&quot; width=&quot;100%&quot;&gt;&lt;tr&gt;&lt;td bgcolor=&quot;#f1f5f9&quot;&gt;&lt;b&gt;rate_limiter_polling&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;PK id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ip_address, tentativa&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="140" width="330" x="50" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="rate_limiter_reacoes" parent="1" style="shape=rectangle;rounded=1;arcSize=12;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=8;fillColor=#f8fbff;fillOpacity=88;strokeColor=#64748b;strokeWidth=1.2;shadow=1;fontSize=16;fontColor=#243447;" value="&lt;table border=&quot;0&quot; cellpadding=&quot;3&quot; cellspacing=&quot;0&quot; width=&quot;100%&quot;&gt;&lt;tr&gt;&lt;td bgcolor=&quot;#f1f5f9&quot;&gt;&lt;b&gt;rate_limiter_reacoes&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;PK id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ip_address, usuario_id [NULL] (sem FK)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;tentativa&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="160" width="340" x="430" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="sessoes_ativas" parent="1" style="shape=rectangle;rounded=1;arcSize=12;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=8;fillColor=#f8fbff;fillOpacity=88;strokeColor=#64748b;strokeWidth=1.2;shadow=1;fontSize=16;fontColor=#243447;" value="&lt;table border=&quot;0&quot; cellpadding=&quot;3&quot; cellspacing=&quot;0&quot; width=&quot;100%&quot;&gt;&lt;tr&gt;&lt;td bgcolor=&quot;#f1f5f9&quot;&gt;&lt;b&gt;sessoes_ativas&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;PK id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;usuario_id (sem FK), token&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;data_criacao, ultima_atividade&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;user_agent, ip, ativo&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="190" width="330" x="820" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="note2" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;size=18;fillColor=#fff7ed;strokeColor=#fb923c;fontSize=18;" value="Importante: essas entidades estao no esquema de producao, mas o SQL nao declara relacionamento FK para elas. O diagrama fisico mantem-nas independentes. Uma associacao logica poderia ser mostrada em outro diagrama conceitual com linha tracejada, claramente identificada como nao declarada no banco." vertex="1">
+          <mxGeometry height="130" width="1490" x="50" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="count2" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#334155;" value="Contagem conferida no arquivo schema-producao-sem-dados-preunic.sql: 22 tabelas no total. Esta página contém as 8 tabelas operacionais sem FKs declaradas; a página anterior contém as 14 restantes." vertex="1">
+          <mxGeometry height="60" width="1490" x="50" y="850" as="geometry" />
+        </mxCell>
+      <mxCell id="fenda_rate_limits" parent="1" style="shape=rectangle;rounded=1;arcSize=12;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=8;fillColor=#f8fbff;fillOpacity=88;strokeColor=#64748b;strokeWidth=1.2;shadow=1;fontSize=16;fontColor=#243447;" value="&lt;table border=&quot;0&quot; cellpadding=&quot;3&quot; cellspacing=&quot;0&quot; width=&quot;100%&quot;&gt;&lt;tr&gt;&lt;td bgcolor=&quot;#f1f5f9&quot;&gt;&lt;b&gt;fenda_rate_limits&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;PK id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;endpoint, usuario_id [NULL] (sem FK)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ip_address, tentativa&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Indices por endpoint, usuario, IP e tempo&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;" vertex="1"><mxGeometry height="170" width="330" x="1210" y="390" as="geometry" /></mxCell></root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
