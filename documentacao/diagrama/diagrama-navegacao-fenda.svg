@@ -1,0 +1,155 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1700" height="1180" viewBox="0 0 1700 1180" style="width:100%;height:auto;display:block" role="img" aria-labelledby="title desc">
+  <title id="title">Fluxo de navegação da plataforma A Fenda</title>
+  <desc id="desc">Mapa de navegação da Fenda desde a entrada até feed, comunidades, eventos, utilidades, perfil, central do habitante e páginas institucionais.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#475569"/>
+    </marker>
+    <style>
+      text { font-family: Arial, Helvetica, sans-serif; fill: #172033; }
+      .page { fill: #f8fafc; stroke: #94a3b8; stroke-width: 2; rx: 18; }
+      .title { font-size: 36px; font-weight: 700; }
+      .subtitle { font-size: 18px; fill: #475569; }
+      .group { fill: #eff6ff; stroke: #64748b; stroke-width: 2; rx: 16; }
+      .group-green { fill: #ecfdf5; stroke: #059669; stroke-width: 2; rx: 16; }
+      .group-amber { fill: #fffbeb; stroke: #d97706; stroke-width: 2; rx: 16; }
+      .group-purple { fill: #f5f3ff; stroke: #7c3aed; stroke-width: 2; rx: 16; }
+      .group-title { font-size: 23px; font-weight: 700; }
+      .box { fill: #ffffff; stroke: #2563eb; stroke-width: 2; rx: 10; }
+      .box-green { fill: #ffffff; stroke: #059669; stroke-width: 2; rx: 10; }
+      .box-amber { fill: #ffffff; stroke: #d97706; stroke-width: 2; rx: 10; }
+      .box-purple { fill: #ffffff; stroke: #7c3aed; stroke-width: 2; rx: 10; }
+      .box-title { font-size: 18px; font-weight: 700; text-anchor: middle; }
+      .box-note { font-size: 14px; fill: #475569; text-anchor: middle; }
+      .line { fill: none; stroke: #475569; stroke-width: 2.5; marker-end: url(#arrow); }
+      .line-dash { fill: none; stroke: #7c3aed; stroke-width: 2.5; stroke-dasharray: 7 6; marker-end: url(#arrow); }
+    </style>
+  </defs>
+  <rect width="1700" height="1180" fill="#e2e8f0"/>
+  <rect class="page" x="24" y="22" width="1652" height="1136"/>
+  <text class="title" x="58" y="66">Fluxo de navegação da plataforma A Fenda</text>
+  <text class="subtitle" x="58" y="94">Principais áreas e caminhos de navegação identificados na aplicação.</text>
+
+  <rect class="group" x="60" y="125" width="300" height="210"/>
+  <text class="group-title" x="82" y="158">1. Entrada</text>
+  <rect class="box" x="95" y="180" width="230" height="52"/>
+  <text class="box-title" x="210" y="212">Início / Entrar</text>
+  <rect class="box" x="95" y="250" width="230" height="62"/>
+  <text class="box-title" x="210" y="276">Cadastro / ativação</text>
+  <text class="box-note" x="210" y="299">da conta</text>
+
+  <rect class="group-green" x="425" y="125" width="1215" height="210"/>
+  <text class="group-title" x="450" y="158">2. Área autenticada — Feed Geral</text>
+  <rect class="box-green" x="465" y="188" width="230" height="80"/>
+  <text class="box-title" x="580" y="220">Feed</text>
+  <text class="box-note" x="580" y="243">publicações e filtros</text>
+  <rect class="box-green" x="755" y="180" width="245" height="68"/>
+  <text class="box-title" x="877" y="207">Criar publicação</text>
+  <text class="box-note" x="877" y="231">texto / mídia / categoria</text>
+  <rect class="box-green" x="755" y="258" width="245" height="55"/>
+  <text class="box-title" x="877" y="282">Comentários e reações</text>
+  <text class="box-note" x="877" y="301">abrir a conversa da publicação</text>
+  <rect class="box-green" x="1065" y="180" width="245" height="68"/>
+  <text class="box-title" x="1187" y="207">Categorias / comunidades</text>
+  <text class="box-note" x="1187" y="231">filtros do feed</text>
+  <rect class="box-green" x="1065" y="258" width="245" height="55"/>
+  <text class="box-title" x="1187" y="282">Achados e perdidos</text>
+  <text class="box-note" x="1187" y="301">posts do feed: “achei” / “perdi”</text>
+  <rect class="box-green" x="1360" y="210" width="235" height="76"/>
+  <text class="box-title" x="1477" y="239">Perfil público</text>
+  <text class="box-note" x="1477" y="265">do autor da publicação</text>
+
+  <path class="line" d="M325 206 H455"/>
+  <path class="line" d="M325 281 C385 281 397 242 455 242"/>
+  <path class="line" d="M695 207 H745"/>
+  <path class="line" d="M695 246 C720 246 730 285 745 285"/>
+  <path class="line" d="M1000 210 H1055"/>
+  <path class="line" d="M1000 286 H1055"/>
+  <path class="line" d="M1310 210 H1330 V248 H1350"/>
+
+  <rect class="group" x="60" y="375" width="490" height="355"/>
+  <text class="group-title" x="82" y="408">3. Comunidades</text>
+  <rect class="box" x="92" y="435" width="205" height="70"/>
+  <text class="box-title" x="194" y="460">Lista de comunidades</text>
+  <text class="box-note" x="194" y="485">buscar / descobrir</text>
+  <rect class="box" x="320" y="435" width="200" height="70"/>
+  <text class="box-title" x="420" y="460">Página da</text>
+  <text class="box-title" x="420" y="482">comunidade</text>
+  <rect class="box" x="92" y="525" width="205" height="70"/>
+  <text class="box-title" x="194" y="550">Solicitar / participar</text>
+  <text class="box-note" x="194" y="579">membros e solicitações</text>
+  <rect class="box" x="320" y="525" width="200" height="70"/>
+  <text class="box-title" x="420" y="550">Publicar na</text>
+  <text class="box-title" x="420" y="572">comunidade</text>
+  <rect class="box" x="92" y="615" width="205" height="70"/>
+  <text class="box-title" x="194" y="640">Criar comunidade</text>
+  <text class="box-note" x="194" y="669">ou editar se autorizado</text>
+  <rect class="box" x="320" y="615" width="200" height="70"/>
+  <text class="box-title" x="420" y="640">Eventos da</text>
+  <text class="box-title" x="420" y="662">comunidade</text>
+  <path class="line" d="M297 465 H310"/>
+  <path class="line" d="M420 495 C420 510 194 510 194 515"/>
+  <path class="line" d="M297 555 H310"/>
+  <path class="line" d="M420 585 V605"/>
+  <path class="line" d="M194 495 V605"/>
+
+  <rect class="group-amber" x="590" y="375" width="490" height="355"/>
+  <text class="group-title" x="612" y="408">4. Eventos — Balanga Teras</text>
+  <rect class="box-amber" x="622" y="435" width="200" height="60"/>
+  <text class="box-title" x="722" y="460">Lista / modo grid</text>
+  <text class="box-note" x="722" y="485">eventos disponíveis</text>
+  <rect class="box-amber" x="850" y="435" width="200" height="70"/>
+  <text class="box-title" x="950" y="460">Detalhes do</text>
+  <text class="box-title" x="950" y="482">evento</text>
+  <rect class="box-amber" x="622" y="525" width="200" height="60"/>
+  <text class="box-title" x="722" y="550">Responder / comentar</text>
+  <text class="box-note" x="722" y="579">interação com o evento</text>
+  <rect class="box-amber" x="850" y="525" width="200" height="70"/>
+  <text class="box-title" x="950" y="550">Criar / editar</text>
+  <text class="box-title" x="950" y="572">evento</text>
+  <rect class="box-amber" x="622" y="615" width="428" height="60"/>
+  <text class="box-title" x="836" y="640">Cancelar evento</text>
+  <text class="box-note" x="836" y="660">fluxo de gestão do evento</text>
+  <path class="line" d="M822 465 H840"/>
+  <path class="line" d="M950 495 C950 510 722 510 722 515"/>
+  <path class="line" d="M950 495 V515"/>
+  <path class="line" d="M950 585 V605"/>
+
+  <rect class="group-purple" x="1120" y="375" width="520" height="355"/>
+  <text class="group-title" x="1142" y="408">5. Perfil e Central do Habitante</text>
+  <rect class="box-purple" x="1152" y="435" width="205" height="70"/>
+  <text class="box-title" x="1254" y="460">Perfil público</text>
+  <text class="box-note" x="1254" y="485">ver perfil / seguir</text>
+  <rect class="box-purple" x="1380" y="435" width="225" height="70"/>
+  <text class="box-title" x="1492" y="460">Depoimentos</text>
+  <text class="box-note" x="1492" y="485">escrever / aprovar</text>
+  <rect class="box-purple" x="1152" y="525" width="205" height="70"/>
+  <text class="box-title" x="1254" y="550">Configurações</text>
+  <text class="box-note" x="1254" y="579">preferências do usuário</text>
+  <rect class="box-purple" x="1380" y="525" width="225" height="70"/>
+  <text class="box-title" x="1492" y="550">Central — abas</text>
+  <text class="box-note" x="1492" y="579">conteúdo e gestão da conta</text>
+  <rect class="box-purple" x="1152" y="615" width="453" height="88"/>
+  <text class="box-title" x="1378" y="641">Posts · Comunidades · Depoimentos</text>
+  <text class="box-title" x="1378" y="664">Notificações</text>
+  <text class="box-note" x="1378" y="688">Solicitações · Sessões · Favoritos* · Marketplace*</text>
+  <path class="line" d="M1357 465 H1370"/>
+  <path class="line" d="M1357 555 H1370"/>
+  <path class="line" d="M1492 585 V605"/>
+
+  <rect class="group" x="60" y="770" width="1580" height="245"/>
+  <text class="group-title" x="82" y="803">6. Utilidades e páginas institucionais</text>
+  <rect class="box" x="145" y="845" width="300" height="80"/>
+  <text class="box-title" x="295" y="875">Achados &amp; Perdidos</text>
+  <text class="box-note" x="295" y="903">consulta por categoria</text>
+  <rect class="box" x="680" y="845" width="300" height="80"/>
+  <text class="box-title" x="830" y="875">Classificados</text>
+  <text class="box-note" x="830" y="903">área utilitária</text>
+  <rect class="box" x="1215" y="845" width="300" height="80"/>
+  <text class="box-title" x="1365" y="875">Quem Somos / Diretrizes</text>
+  <text class="box-note" x="1365" y="903">páginas institucionais</text>
+  <text class="box-note" x="850" y="965">Achados e perdidos também classifica publicações do feed como “achei” ou “perdi”.</text>
+
+  <text class="subtitle" x="62" y="1065">Legenda: setas sólidas = navegação principal observada no menu/áreas da aplicação.</text>
+  <text class="subtitle" x="62" y="1094">* Abas visíveis com implementação incompleta/em desenvolvimento no código observado.</text>
+</svg>
